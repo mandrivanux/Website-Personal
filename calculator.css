@@ -1,0 +1,67 @@
+    /* Mengatur warna latar belakang dan teks */
+    body {
+        background-image: url('https://pics.computerbase.de/1/0/9/3/7/5-896514dcc3973df5/article-1280x720.7327a0aa.jpg');
+        background-size: cover;
+        color: var(--text-color);
+        background-size: 280%;
+        background-position: 849% -35%;;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+    /* Mengatur ukuran, font, dan warna layar kalkulator */
+    input[name=layar] {
+        width: 98%;
+        height: 50px;
+        font-size: 35px;
+        font-family: Arial, sans-serif;
+        background-color: #00ffff;
+        color: #383737;
+        border-radius: 40px;
+    }
+    
+    /* Mengatur ukuran, font, dan warna tombol kalkulator */
+    input[type=button] {
+        width: 24%;
+        height: 119px;
+        font-size: 60px;
+        font-family: Arial, sans-serif;
+        background-color: #00ffff;
+        color: #383737;
+        border: none;
+        border-radius: 40px;
+        border: rgb(0, 0, 0) 2px solid;
+    }
+    
+    /* Mengatur efek hover pada tombol kalkulator */
+    input[type=button]:hover {
+        background-color: #00ffff96;
+    }
+    h1 {
+        padding: 1px 79px;
+    }
+    h5 {
+        padding: 1px 117px;
+    }
+    h1, h5 {
+        margin:0%
+    }
+    button2 {
+        font-family: 'Arial';
+        font-weight: bold;
+        background-color: #00ffff; 
+        color: #000000b7;
+        border-radius: 10px;
+        display: block;
+        margin: 5 auto;
+        padding: 10px 10px;
+        border: rgb(0, 0, 0) 2px solid;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        text-align: center;
+        line-height: center;
+      }
+    a {
+        text-decoration: none;
+    }

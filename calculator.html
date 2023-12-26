@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <h5>basic calculations</h5>
+    <br>
+    <br>
+    <a href="index.html"><button2>◀</button2></a>
+    <br>
+    <!-- Membuat form kalkulator -->
+    <form name="kalkulator">
+        <!-- Membuat layar kalkulator -->
+        <input type="text" name="layar"readonly>
+        <br>
+        <!-- Membuat tombol kalkulator -->
+        <input type="button" value="1" onclick="kalkulator.layar.value += '1'">
+        <input type="button" value="2" onclick="kalkulator.layar.value += '2'">
+        <input type="button" value="3" onclick="kalkulator.layar.value += '3'">
+        <input type="button" value="+" onclick="kalkulator.layar.value += '+'">
+        <br>
+        <input type="button" value="4" onclick="kalkulator.layar.value += '4'">
+        <input type="button" value="5" onclick="kalkulator.layar.value += '5'">
+        <input type="button" value="6" onclick="kalkulator.layar.value += '6'">
+        <input type="button" value="-" onclick="kalkulator.layar.value += '-'">
+        <br>
+        <input type="button" value="7" onclick="kalkulator.layar.value += '7'">
+        <input type="button" value="8" onclick="kalkulator.layar.value += '8'">
+        <input type="button" value="9" onclick="kalkulator.layar.value += '9'">
+        <input type="button" value="x" onclick="kalkulator.layar.value += '*'">
+        <br>
+        <input type="button" value="C" onclick="kalkulator.layar.value = ''">
+        <input type="button" value="0" onclick="kalkulator.layar.value += '0'">
+        <input type="button" value="/" onclick="kalkulator.layar.value += '/'">
+        <input type="button" value="=" onclick="kalkulator.layar.value = eval(kalkulator.layar.value)">
+    </form>
+    <!-- Menghubungkan file JavaScript -->
+    <script src="calculator.js"></script>
+</body>
+</html>
