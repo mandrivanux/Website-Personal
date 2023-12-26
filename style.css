@@ -45,3 +45,22 @@ body {
   b, h5 {
     height: 166px;
   }
+  a {
+    text-decoration: none;
+  }
+  button2 {
+    font-family: 'Arial';
+    font-weight: bold;
+    background-color: #00ffff; 
+    color: #000000b7;
+    border-radius: 10px;
+    display: block;
+    margin: 5 auto;
+    padding: 10px 10px;
+    border: rgb(0, 0, 0) 2px solid;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: center;
+  }
