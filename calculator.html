@@ -1,44 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="calculator.css">
-    <title>CALCULATOR</title>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Mandrivux calculator</title>
+  <!-- Menghubungkan file CSS eksternal -->
+  <link rel="stylesheet" href="clc.css">
 </head>
 <body>
-    <h1>CALCULATOR</h1>
-    <h5>basic calculations</h5>
-    <br>
-    <br>
-    <a href="index.html"><button2>◀</button2></a>
-    <br>
-    <!-- Membuat form kalkulator -->
-    <form name="kalkulator">
-        <!-- Membuat layar kalkulator -->
-        <input type="text" name="layar"readonly>
-        <br>
-        <!-- Membuat tombol kalkulator -->
-        <input type="button" value="1" onclick="kalkulator.layar.value += '1'">
-        <input type="button" value="2" onclick="kalkulator.layar.value += '2'">
-        <input type="button" value="3" onclick="kalkulator.layar.value += '3'">
-        <input type="button" value="+" onclick="kalkulator.layar.value += '+'">
-        <br>
-        <input type="button" value="4" onclick="kalkulator.layar.value += '4'">
-        <input type="button" value="5" onclick="kalkulator.layar.value += '5'">
-        <input type="button" value="6" onclick="kalkulator.layar.value += '6'">
-        <input type="button" value="-" onclick="kalkulator.layar.value += '-'">
-        <br>
-        <input type="button" value="7" onclick="kalkulator.layar.value += '7'">
-        <input type="button" value="8" onclick="kalkulator.layar.value += '8'">
-        <input type="button" value="9" onclick="kalkulator.layar.value += '9'">
-        <input type="button" value="x" onclick="kalkulator.layar.value += '*'">
-        <br>
-        <input type="button" value="C" onclick="kalkulator.layar.value = ''">
-        <input type="button" value="0" onclick="kalkulator.layar.value += '0'">
-        <input type="button" value="/" onclick="kalkulator.layar.value += '/'">
-        <input type="button" value="=" onclick="kalkulator.layar.value = eval(kalkulator.layar.value)">
-    </form>
-    <!-- Menghubungkan file JavaScript -->
-    <script src="calculator.js"></script>
-</body>
-</html>
+  <span class="text">
+    <h1>MANDRIVUX</h1>
+  </span>
+  <span class="button">
+    <button2>+/-</button2>
+  </span>
+  <br><br>
+  <br><br>
+  <br><br>
+  <button4>
+    <span style='font-size: 30px;'>&#8732; CALCULATOR</span><br><br>
+   you can perform basic calculations, such as addition, subtraction, multiplication, and division 
+</button4>
+<br><br><br><br><br><br><br><br><br><br>
+  <!-- Tampilan kalkulator -->
+  <input type="text" id="display" class="display" disabled>
+
+  <!-- Tombol kalkulator -->
+  <div id="buttons">
+    <button class="button clear" onclick="clearDisplay()">C</button>
+    <button class="button" onclick="appendValue('%')">%</button>
+    <button class="button" onclick="appendValue('/')">/</button>
+    <button class="button" onclick="appendValue('7')">7</button>
+    <button class="button" onclick="appendValue('8')">8</button>
+    <button class="button" onclick="appendValue('9')">9</button>
+    <button class="button" onclick="appendValue('5')">5</button>
+    <button class="button" onclick="appendValue('6')">6</button>
+    <button class="button" onclick="appendValue('*')">x</button>
+    <button class="button" onclick="appendValue('3')">3</button>
+    <button class="button" onclick="appendValue('4')">4</button>
+    <button class="button" onclick="appendValue('-')">-</button>
+    <button class="button" onclick="appendValue('1')">1</button>
+    <button class="button" onclick="appendValue('2')">2</button>
+    <button class="button" onclick="appendValue('+')">+</button>
+    <button class="button" onclick="appendValue('0')">0</button>
+    <button class="button" onclick="appendValue('.')">.</button>
+    <button class="button equal" onclick="calculate()">=</button>
+  </div>
+<button3><a href="nizar.html">back</a></button3>
+<br><br><br><br>
+  <!-- Menghubungkan file JavaScript eksternal -->
+  <script src="script.js"></script>
+  
