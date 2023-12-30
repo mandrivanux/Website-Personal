@@ -1,67 +1,139 @@
-    /* Mengatur warna latar belakang dan teks */
-    body {
-        background-image: url('https://pics.computerbase.de/1/0/9/3/7/5-896514dcc3973df5/article-1280x720.7327a0aa.jpg');
-        background-size: cover;
-        color: var(--text-color);
-        background-size: 280%;
-        background-position: 849% -35%;;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-      }
-    /* Mengatur ukuran, font, dan warna layar kalkulator */
-    input[name=layar] {
-        width: 98%;
-        height: 50px;
-        font-size: 35px;
-        font-family: Arial, sans-serif;
-        background-color: #00ffff;
-        color: #383737;
-        border-radius: 40px;
-    }
-    
-    /* Mengatur ukuran, font, dan warna tombol kalkulator */
-    input[type=button] {
-        width: 24%;
-        height: 119px;
-        font-size: 60px;
-        font-family: Arial, sans-serif;
-        background-color: #00ffff;
-        color: #383737;
-        border: none;
-        border-radius: 40px;
-        border: rgb(0, 0, 0) 2px solid;
-    }
-    
-    /* Mengatur efek hover pada tombol kalkulator */
-    input[type=button]:hover {
-        background-color: #00ffff96;
-    }
-    h1 {
-        padding: 1px 79px;
-    }
-    h5 {
-        padding: 1px 117px;
-    }
-    h1, h5 {
-        margin:0%
-    }
-    button2 {
-        font-family: 'Arial';
-        font-weight: bold;
-        background-color: #00ffff; 
-        color: #000000b7;
-        border-radius: 10px;
-        display: block;
-        margin: 5 auto;
-        padding: 10px 10px;
-        border: rgb(0, 0, 0) 2px solid;
-        width: 20px;
-        height: 20px;
-        font-size: 20px;
-        text-align: center;
-        line-height: center;
-      }
-    a {
-        text-decoration: none;
-    }
+body {
+      background-image:url("https://www.colorhexa.com/737373.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0px -910px
+}
+    /* Gaya untuk tampilan kalkulator */
+.display {
+  width: 364px;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  margin: 10px auto;
+  border: 2px solid black;
+  border-radius: 9px;
+  background-color: #40e0ff;
+}
+
+/* Gaya untuk tombol kalkulator */
+.button {
+  width: 110px;
+  height: 60px;
+  font-size: 23px;
+  Color: white;
+  margin: 5px;
+  cursor: pointer;
+  Border-radius: 10px;
+  background-color: #40e0ff;
+}
+
+/* Gaya untuk tombol hapus */
+.clear {
+  width: 110px;
+  background-color: red;
+  color: white;
+}
+
+/* Gaya untuk tombol sama dengan */
+.equal {
+  width: 110px;
+  background-color: green;
+  color: black;
+  left: 1px 
+} 
+button2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      background-color: hsl(0, 0%, 100%); 
+      color: #40e0ff;
+      border-radius: 10px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 5px;
+      position: absolute;
+      right: 330px; 
+      bottom: 667px;
+}
+button3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      background-color: #40e0ff;
+      color: #40e0ff;
+      border-radius: 10px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 87px;
+      height: 30px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 5px;
+      position: absolute;
+      right: 261px; 
+      bottom: -250px;
+}
+button4 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      background-color: #40e0ff;
+      color: white;
+      border-radius: 15px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 340px;
+      height: 140px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 5px;
+      position: absolute;
+      right: 10px;
+      bottom: 400px;
+}
+h1 {
+      padding: 3px 72px;
+      color: #40e0ff;
+      font-weight: 900;
+      position: relative;
+      left: -11px;
+      top: -15px;
+      font-family: Arial, sans-serif;
+      font-size: 38px;      
+}
+h6 {
+   Font-size: 15px;
+   margin-left: 200px;
+   color: #40e0ff;
+}
+a {
+   text-decoration: none;  
+   Color: white;
+} 
+</style>
+<script>
+var display = document.getElementById("display");
+function appendValue(value) {
+  display.value += value;
+}
+function clearDisplay() {
+  display.value = "";
+}
+function calculate() {
+  try {
+    display.value = eval(display.value);
+  } catch (error) {
+    display.value = "Error";
+  }
+}
