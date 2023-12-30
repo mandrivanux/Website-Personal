@@ -1,66 +1,194 @@
-body {
-    background-image: url('https://pics.computerbase.de/1/0/9/3/7/5-896514dcc3973df5/article-1280x720.7327a0aa.jpg'); background-size: cover;
-    color: var(--text-color);
-    background-size: 251%;
-    background-position: 905% 60%;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-  input {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    background-color: #00ffff; 
-    color: #000000b7;
-    border-radius: 10px;
-    display: block;
-    margin: 5 auto;
-    padding: 10px 80px;
-  }
-  button {
-    font-family: 'Arial';
-    font-weight: bold;
-    background-color: #00ffff; 
-    color: #000000b7;
-    border-radius: 10px;
-    display: block;
-    margin: 5 auto;
-    padding: 10px 163px;
-  }
-  h1 {
-    padding: 1px 72px;
-  }
-  h4 {
-    padding: 4px 68px;
-  }
-  h5 {
-    padding: 1px 131px;
-  }
-  h4, h5 {
-    margin: 0%;
-  }
-  b, h3 {
-    margin: 0;
-  }
-  b, h5 {
-    height: 166px;
-  }
-  a {
-    text-decoration: none;
-  }
-  button2 {
-    font-family: 'Arial';
-    font-weight: bold;
-    background-color: #00ffff; 
-    color: #000000b7;
-    border-radius: 10px;
-    display: block;
-    margin: 5 auto;
-    padding: 10px 10px;
-    border: rgb(0, 0, 0) 2px solid;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    text-align: center;
-    line-height: center;
-  }
+    body {
+      background-image:url("https://www.colorhexa.com/737373.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0px -550px
+    }
+    input {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      background-color: #00ffff; 
+      color: #000000b7;
+      border-radius: 10px;      
+      display: block;      
+      margin: 5 auto;
+      padding: 10px 45px;
+    }
+    button {
+      font-family: 'Arial';
+      font-weight: bold;
+      background-color: #00ffff; 
+      color: #000000b7;
+      border-radius: 10px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 163px;
+    }
+    h1 {
+      padding: 3px 72px;
+      color: #40e0ff;
+      font-weight: 900;
+      position: relative;
+      left: -11px;
+      top: -15px;
+      font-family: Arial, sans-serif;
+      font-size: 38px;      
+    }
+    h3, h3 {
+        Margin: 1px;
+    }
+    h4 {
+      padding: 4px 68px;
+    }
+    h5 {
+      padding: 1px 131px;
+    }
+    h4, h5 {
+      margin: 0%;
+    }
+    b, h5 {
+      height: 166px;
+    }
+    a {
+      text-decoration: none;  
+      Color: white;
+    }
+    button3 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      background-color: hsl(0, 0%, 100%); 
+      color: #40e0ff;
+      border-radius: 10px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 5px;
+      position: absolute;
+      right: 330px; 
+      bottom: 667px;
+    }
+    button4 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      background-color: #40e0ff;
+      color: white;
+      border-radius: 15px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 340px;
+      height: 140px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 5px;
+      position: absolute;
+      right: 10px;
+     } 
+     button5 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      background-color: #40e0ff;
+      color: white;
+      border-radius: 15px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 340px;
+      height: 140px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 5px;
+      position: absolute;
+      right: 10px;
+      bottom: 170px;
+     }
+     button6 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      background-color: #40e0ff;
+      color: white;
+      border-radius: 15px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 340px;
+      height: 240px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 5px;
+      position: absolute;
+      right: 10px;
+      bottom: -145px;
+     }
+     button7 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      background-color: #40e0ff;
+      color: white;
+      border-radius: 15px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 340px;
+      height: 200px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 5px;
+      position: absolute;
+      right: 10px;
+      bottom: -595px;
+     }
+     Button8 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      background-color: #40e0ff;
+      color: white;
+      border-radius: 9px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 32px;
+      height: 32px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 10px;
+      position: absolute;
+      bottom: -251px;
+      left: 1px
+     }
+     Button9 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      background-color: #40e0ff;
+      color: white;
+      border-radius: 9px;
+      display: block;
+      margin: 5 auto;
+      padding: 10px 10px;
+      border: rgb(0, 0, 0) 2px solid;
+      width: 32px;
+      height: 32px;
+      font-size: 20px;
+      text-align: center;
+      line-height: center;
+      margin-left: 10px;
+      position: absolute;
+      bottom: -320px;
+      left: 1px;
+     }
